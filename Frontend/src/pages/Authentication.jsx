@@ -36,6 +36,8 @@ export default function Authentication() {
 
     const [open, setOpen] = React.useState(false)
 
+    const navigate=uaseNavigate()
+
 
     const { handleRegister, handleLogin } = React.useContext(AuthContext);
 
@@ -153,7 +155,7 @@ export default function Authentication() {
                                 fullWidth
                                 variant="contained"
                                 sx={{ mt: 3, mb: 2 }}
-                                onClick={handleAuth}
+                                onClick={()=>{navigate("/home")}}
                             >
                                 {formState === 0 ? "Login " : "Register"}
                             </Button>
