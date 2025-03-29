@@ -1,0 +1,109 @@
+.video-meet-wrapper {
+    position: relative;
+    top: 12vh;
+    width: 95vw;
+    height: 85vh;
+    padding: 0px;
+
+}
+
+.lobby {
+    width: 50vw;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.lobby > h2 {
+    text-align: center;
+}
+
+.trial-video-section {
+    width: 50vw;
+    height: 56vh;
+    margin: auto;
+    
+}
+
+#trial-video {
+    width: inherit;
+    height: inherit;
+}
+
+.connect {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+    margin: auto;
+}
+
+#outlined-basic {
+    padding: 10px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.interface {
+    position: relative;
+    /* top: 12vh; */
+    width: 100vw;
+    height: 80vh;
+    padding: 0px;
+    /* border: 8px solid green; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.video-display {
+    background-color: rebeccapurple;
+    border-radius: 20px;
+    width: 40vw;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.meeting-videos {
+    grid-column: 1/2;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+
+.code-display {
+    grid-column: 2/3;
+    /* background-color: black; */
+}
+
+.buttons {
+    position: sticky;
+    bottom: 0px;
+    z-index: 1;
+
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+}
+
+#video1 {
+    width: inherit;
+    background-color: red;
+    border-radius: 20px;
+}
+
+#self-video {
+    width: 150px;
+    border-radius: 20px;
+    z-index: 10;
+
+}
+
+.video-display-stream {
+    width: 30vw;
+    margin: auto;
+}

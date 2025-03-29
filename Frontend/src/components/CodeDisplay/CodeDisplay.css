@@ -1,0 +1,19 @@
+.codedisplay-wrapper {
+    width: inherit;
+    height: inherit;
+}
+
+.codedisplay {
+    width: 97;
+    height: 80vh;
+    padding: 0.5%;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.sample1 {
+    width: 100%;
+    height: inherit;
+    background-color: #000;
+    border-radius: inherit;
+}

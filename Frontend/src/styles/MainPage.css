@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    width: 90vw;
+    align-items: space-around;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: #f0f0f0;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  
+  .card {
+    width: 30vw;
+    height: 20vh;
+  }
